@@ -1904,4 +1904,116 @@ footer .logo {
   font-weight: 500;
   color: #666666; }
 
+.features-demo button {
+  padding: 20px 40px;
+  border: 2px solid rgba(117, 205, 111, 1);
+  background: rgba(117, 205, 111, 1);
+  background: linear-gradient(to right, rgba(117, 205, 111, 1) 0%, rgba(70, 200, 148, 1) 100%);
+  font-family: 'Josefin Sans', sans-serif;
+  border-radius: 90px;
+  box-shadow: 6px 4px 20px 1px rgba(70, 200, 148, 0.25);
+}
+
+.features-demo button:hover,
+.features-demo button:focus  {
+  background: rgba(117, 205, 111, 1);
+}
+
+.features-demo .title {
+  font-size: 50px;
+}
+
+.features-demo p {
+  font-size: 20px;
+}
+
+.features-chatbot {
+  text-align: center;
+  padding: 0% 20%;
+}
+
+.features-projects-completed {
+  background-color: #43489A;
+  height: 380px;
+  padding: 3% 25%;
+}
+
+.features-projects-completed h1,
+.features-projects-completed h3,
+.features-projects-completed p {
+  color: #fff;
+}
+
+.features-projects-completed h1,
+.features-connections h1,
+.features-integrations h1,
+.features-call-to-action h1 {
+  font-weight: bold;
+}
+
+.features-projects-completed,
+.features-connections,
+.features-integrations,
+.features-call-to-action {
+  text-align: center;
+}
+
+.features-connections h1,
+.features-integrations h1 {
+  color: #a8d76d;
+}
+
+.features-integrations-text {
+  padding: 3% 3%;
+  text-align: start;
+}
+
+.features-connections h3 {
+  color: #666666;
+}
+
+.features-integrations-text a {
+  color: #7d4ac7;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.features-call-to-action {
+  margin-top: 10%;
+  padding: 0% 30%;
+}
+
+.features-call-to-action p {
+  font-size: 20px;
+}
+
+.features-call-to-action button {
+  padding: 20px 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  border-radius: 90px;
+  box-shadow: 6px 4px 20px 1px rgba(70, 200, 148, 0.25);
+}
+
+.features-call-to-action .button-request-demo {
+  border: 2px solid rgba(117, 205, 111, 1);
+  background: rgba(117, 205, 111, 1);
+  background: linear-gradient(to right, rgba(117, 205, 111, 1) 0%, rgba(70, 200, 148, 1) 100%);
+}
+
+.features-call-to-action .button-request-demo:hover,
+.features-call-to-action .button-request-demo:focus  {
+  background: rgba(117, 205, 111, 1);
+}
+
+.features-call-to-action .button-buy-now {
+  border: 2px solid rgb(96, 160, 92);
+  background:rgb(96, 160, 92);
+  background: linear-gradient(to right,rgb(96, 160, 92) 0%, rgb(29, 196, 129) 100%);
+}
+
+.features-call-to-action .button-buy-now:hover,
+.features-call-to-action .button-buy-now:focus  {
+  background:rgb(96, 160, 92);
+}
+
 /*# sourceMappingURL=test.css.map */
