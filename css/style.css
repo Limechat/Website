@@ -312,6 +312,8 @@ footer .logo { width: 160px; }
 10 Team
 -----------------------------------------------------------------------*/
 #team, #partners { margin: 200px 0 0 0; }
+.team-box { padding: 3%; box-shadow: 0px 20px 10px 3px rgba(0, 0, 0, 0.07);  }
+.team-box, .team-box img { border-radius: 3%;  }
 .team-box .team-img .team-2 { position: absolute; top: 0; left: 0; display: none; }
 .team-box:hover .team-img .team-2 { z-index: 9; display: inherit; }
 .team-box .title { font-weight: 800; margin-bottom: 0; }
