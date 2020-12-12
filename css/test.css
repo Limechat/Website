@@ -52,11 +52,11 @@ header {
   top: 40px; }
 
 header .logo {
-  width: 150px;
+  width: 200px;
   display: block; }
 
 header .logo-stiky {
-  width: 100px;
+  width: 150px;
   display: none; }
 
 header .navbar-light .navbar-nav .nav-item {
