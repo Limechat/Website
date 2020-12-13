@@ -33,6 +33,7 @@
 		$('.itemDot').click(function(){
 			
 			var dataTab= $(this).data("tab");
+			$('.feature-image').attr('src', `images/features/feature-${dataTab}.png`);
 			$('.itemDot').removeClass('active');
 			$(this).addClass('active');
 			$('.CirItem').removeClass('active');
