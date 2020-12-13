@@ -342,6 +342,8 @@ footer .logo { width: 160px; }
 10 Team
 -----------------------------------------------------------------------*/
 #team, #partners { margin: 200px 0 0 0; }
+.team-box { border: 1px solid rgba($col3, 0.1); box-shadow: 0px 20px 10px 3px rgba($col3, 0.1); padding: 3%; }
+.team-box, .team-box img { border-radius: 3%; }
 .team-box .team-img .team-2 { position: absolute; top: 0; left: 0; display: none; }
 .team-box:hover .team-img .team-2 { z-index: 9; display: inherit; }
 .team-box .title { font-weight: 800; margin-bottom: 0; }
@@ -487,3 +489,17 @@ footer .logo { width: 160px; }
 -----------------------------------------------------------------------*/
 .features-arrow i { padding-right: 10px; color: $primary1; }
 .features-arrow ul li { list-style: none; font-weight: 500; color: $col3; }
+.features-demo .title { font-size: 50px; }
+.features-demo p { font-size: 20px; }
+.features-chatbot { text-align: center; padding: 0% 20%; }
+.features-projects-completed { background-color: $primary1; height: 380px; padding: 3% 25%; }
+.features-projects-completed h1, .features-projects-completed h3, .features-projects-completed p { color: $white; }
+.features-projects-completed h1,
+.features-connections h1, .features-integrations h1, .features-call-to-action h1 { font-weight: bold; }
+.features-projects-completed, .features-connections, .features-integrations, .features-call-to-action { text-align: center; }
+.features-connections h1, .features-integrations h1 { color: $primary2; }
+.features-integrations-text { padding: 3% 3%; text-align: start; }
+.features-connections h3 { color: $col3; }
+.features-integrations-text a { color: $col1; font-weight: bold; font-size: 20px; }
+.features-call-to-action { margin-top: 10%; padding: 0% 30%; }
+.features-call-to-action p { font-size: 20px; }
