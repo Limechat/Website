@@ -53,16 +53,16 @@
             </div>
          </div>
          <!-- back-to-top -->
-         <div id="back-to-top">
+         <!-- <div id="back-to-top">
             <a class="top" id="top" href="#top"><i class="ion-ios-arrow-thin-up"></i></a>
-         </div>
+         </div> -->
          <!-- back-to-top End -->
       </footer>
       <!--=================================
          Footer -->     
       <!--=================================
          Chatbot -->     
-      <div id="body">
+      <!-- <div id="body">
          <div id="chat-circle" class="btn btn-raised">
             <i class="ion-chatbubble-working"></i>
          </div>
@@ -76,7 +76,6 @@
                </div>
                <div class="chat-logs">
                </div>
-               <!--chat-log -->
             </div>
             <div class="chat-input">
                <form>
@@ -85,7 +84,7 @@
                </form>
             </div>
          </div>
-      </div>
+      </div> -->
       <!--=================================
          Chatbot --> 
       <!--=================================
@@ -97,7 +96,6 @@
          Cookies -->
       <!-- Optional JavaScript -->
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      <script src="js/jquery-3.3.1.min.js"></script>
       <script src="js/popper.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
       <!-- Owl Carousel -->
@@ -112,5 +110,23 @@
       <script src="js/main.js"></script>
       <!-- Custom -->
       <script src="js/custom.js"></script>
+      <!-- Circle -->
+      <script src="js/circle.js"></script>
+
+      <script>
+         (function(d,t) {
+           var BASE_URL = "https://dashboard.limechat.ai";
+           var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+           g.src= BASE_URL + "/packs/js/sdk.js";
+           s.parentNode.insertBefore(g,s);
+           g.onload=function(){
+             window.chatwootSDK.run({
+               websiteToken: 'wTq247eB5rb7h2qeNipigsBS',
+               baseUrl: BASE_URL
+             })
+           }
+         })(document,"script");
+      </script>
    </body>
 </html>
+
