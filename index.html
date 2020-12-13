@@ -8,19 +8,22 @@ layout: page
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-md-12 col-sm-12">
-                    <h1 class="text-uppercase">ADD CHATBOT & AI TO YOUR WEBSITE</h1>
-                    <h3 class="mt-4">Free Try for 30 Days. <span>Let’s Start</span></h3>
-                    <form>
-                        <div class="form-row align-items-center justify-content-lg-start justify-content-center">
-                            <div class="col-auto">
-                                <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="you@example.com" />
-                            </div>
-                            <div class="col-auto">
-                                <button type="submit" class="button mb-2"><i class="ion-ios-paperplane"></i></button>
-                            </div>
-                        </div>
-                    </form>
-                    <img src="images/logos/y-combinator.png" height="90">
+                    <h1 class="text-uppercase">Conversational commerce for D2C</h1>
+                    <h3 class="mt-4">Try a Pilot for 30 Days.</h3>
+                    <div class="form-row align-items-center justify-content-lg-start justify-content-center">
+                        <!-- <div class="col-auto">
+                            <button type="submit" class="button mb-2"><i class="ion-ios-paperplane"></i> Get Demo</button>
+                        </div> -->
+                        <div class="col-auto text-right">
+                          <ul class="login">
+                             <li class="d-inline active" style="margin-left: 0;"><a href="contact-us.html">Let's Start</a></li>
+                          </ul>
+                       </div>
+                    </div>
+                    <div class="toggle-image mt-5">
+                        <img class="company-white" src="images/logos/y-combinator-white.png" height="40">
+                        <img class="img-top" src="images/logos/y-combinator.png" height="40">
+                    </div>
                 </div>
                 <div class="col-lg-7 col-md-12 col-sm-12 text-right">
                     <img class="img-fluid banner-img" src="images/banner/banner-img.png" alt="image" />
@@ -35,9 +38,26 @@ layout: page
 <!--=================================
          MAIN CONTENT -->
 <div class="main-content">
-   <section class="companies">
-      <div class="bg"><img src="images/banner/companies.png" alt="img" style="width: 100%;" /></div>
-   </section>
+    <section class="companies">
+        <div class="row justify-content-md-center">
+            <div class="col-lg-8 col-sm-12 text-center">
+                <div class="title-box">
+                    <h2 class="title text-dark">Join our Growing <span>D2C Family</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="company-images">
+            <img src="images/clients/1.png">
+            <img src="images/clients/2.webp">
+            <img src="images/clients/3.png" class="image-black">
+            <img src="images/clients/4.png" class="image-black">
+            <img src="images/clients/5.png" class="image-black">
+            <img src="images/clients/6.jpg">
+            <img src="images/clients/7.webp" class="image-black">
+        </div>
+
+      <!-- <div class="bg"><img src="images/banner/companies.png" alt="img" style="width: 100%;" /></div> -->
+    </section>
     <!--=================================
             How it Works -->
     <section class="iq-works mt-3">
@@ -208,3 +228,52 @@ layout: page
 </div>
 <!--=================================
          MAIN CONTENT -->
+
+
+<style type="text/css">
+    .company-white {
+        opacity: .5;
+    }
+    .toggle-image {
+        width: 130px;
+        height: 195px;
+        position: relative;
+        display: inline-block;
+    }
+    .toggle-image .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .toggle-image:hover .img-top {
+        display: inline;
+    }
+    .company-images{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        margin-bottom: -20px;
+    }
+    .company-images img{
+        height: 85px;
+        padding: 15px;
+        filter: grayscale(100%);
+        opacity: .8;
+        padding-right: 60px;
+    }
+    .company-images .image-black {
+        opacity: .5;
+    }
+    .company-images img:hover{
+        filter: grayscale(0%);
+        cursor: pointer;
+        opacity: 1;
+    }
+</style>

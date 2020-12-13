@@ -38,10 +38,10 @@ $white : #ffffff;
 $col1 : #222222;
 $col2 : #dddddd;
 $col3 : #666666;
-$primary1 : #811BAC;
-$primary2 : #1B83AC;
-$primary3 : #815ded;
-$primary4 : #a424dc;
+$primary1 : #6BAC1B;
+$primary2 : #489618;
+$primary3 : #6BAC1B;
+$primary4 : #6BAC1B;
 
 // $primary1 : #7d4ac7;
 // $primary2 : #a733bb;
@@ -64,8 +64,8 @@ $primary4 : #a424dc;
 1 Header
 -----------------------------------------------------------------------*/
 header { z-index: 999; -webkit-transition: all 0.3s ease-out 0s; -moz-transition: all 0.3s ease-out 0s; -ms-transition: all 0.3s ease-out 0s; -o-transition: all 0.3s ease-out 0s; transition: all 0.3s ease-out 0s; position: absolute; left: 0; width: 100%; top: 40px; }
-header .logo { width: 150px; display: block; }
-header .logo-stiky { width: 100px; display: none; }
+header .logo { width: 200px; display: block; }
+header .logo-stiky { width: 150px; display: none; }
 header .navbar-light .navbar-nav .nav-item { margin: 0 20px; }
 header .navbar-light .navbar-nav .nav-link { font-size: 14px; font-weight: 400; color: $white; text-transform: uppercase; letter-spacing: 1px; padding-top: 8px; padding-bottom: 0; }
 header .navbar-brand { padding-top: 0; padding-bottom: 0; }
