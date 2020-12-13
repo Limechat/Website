@@ -10,7 +10,7 @@
 
 	
 	$(document).ready(function(){
-		var radius = 200;
+		// var radius = 200;
 		var fields = $('.itemDot');
 		var container = $('.dotCircle');
 		var width = container.width();
@@ -32,7 +32,7 @@
 		$('.itemDot').click(function(){
 			
 			var dataTab= $(this).data("tab");
-			$('.feature-image').attr('src', `images/features/feature-${dataTab}.png`);
+			$('.feature-image').attr('src', `images/features/${dataTab}.png`);
 			$('.itemDot').removeClass('active');
 			$(this).addClass('active');
 			$('.CirItem').removeClass('active');
@@ -51,29 +51,29 @@
 			
 		});
 		
-		setInterval(function(){
-			var dataTab= $('.itemDot.active').data("tab");
-			if(dataTab>6||i>6){
-			dataTab=1;
-			i=1;
-			}
-			$('.itemDot').removeClass('active');
-			$('[data-tab="'+i+'"]').addClass('active');
-			$('.CirItem').removeClass('active');
-			$( '.CirItem'+i).addClass('active');
-			i++;
+		// setInterval(function(){
+		// 	var dataTab= $('.itemDot.active').data("tab");
+		// 	if(dataTab>6||i>6){
+		// 	dataTab=1;
+		// 	i=1;
+		// 	}
+		// 	$('.itemDot').removeClass('active');
+		// 	$('[data-tab="'+i+'"]').addClass('active');
+		// 	$('.CirItem').removeClass('active');
+		// 	$( '.CirItem'+i).addClass('active');
+		// 	i++;
 			
 			
-			$('.dotCircle').css({
-				"transform":"rotate("+(360-(i-2)*36)+"deg)",
-				"transition":"2s"
-			});
-			$('.itemDot').css({
-				"transform":"rotate("+((i-2)*36)+"deg)",
-				"transition":"1s"
-			});
+		// 	$('.dotCircle').css({
+		// 		"transform":"rotate("+(360-(i-2)*36)+"deg)",
+		// 		"transition":"2s"
+		// 	});
+		// 	$('.itemDot').css({
+		// 		"transform":"rotate("+((i-2)*36)+"deg)",
+		// 		"transition":"1s"
+		// 	});
 			
-			}, 5000);
+		// 	}, 5000);
 		
 	});
 
