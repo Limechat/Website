@@ -14,9 +14,8 @@
 		var fields = $('.itemDot');
 		var container = $('.dotCircle');
 		var width = container.width();
- radius = width/2.5;
- 
-		 var height = container.height();
+ 		var radius = width/2.5;
+		var height = container.height();
 		var angle = 0, step = (2*Math.PI) / fields.length;
 		fields.each(function() {
 			var x = Math.round(width/2 + radius * Math.cos(angle) - $(this).width()/2);
@@ -37,7 +36,7 @@
 			$('.itemDot').removeClass('active');
 			$(this).addClass('active');
 			$('.CirItem').removeClass('active');
-			$( '.CirItem'+ dataTab).addClass('active');
+			$('.CirItem'+ dataTab).addClass('active');
 			i=dataTab;
 			
 			$('.dotCircle').css({
