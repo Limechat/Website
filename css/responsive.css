@@ -50,7 +50,7 @@ header .navbar-light .navbar-toggler { border: 2px solid #ffffff; background: #f
 header .navbar-light .navbar-nav .nav-item { margin: 0 20px; }
 header .navbar-light .navbar-nav { background: #ffffff; padding: 10px 0; border: 1px solid #dddddd;}
 header .navbar-light .navbar-nav .dropdown-menu{border: none; padding: 10px;}
-header .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link { color: #7d4ac7; }
+header .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link { color: #6BAC1B; }
 header .navbar-light .navbar-nav .nav-item a { color: #222222; }
 header .login { position: absolute; right: 110px; top: -53px; }
 .menu-sticky .login { top: -50px; }
@@ -58,7 +58,7 @@ header .login { position: absolute; right: 110px; top: -53px; }
 .iq-coming .iq-subscribe .form-group { width: 100%; display: inline-block; }
 .blogdetailbox .re-space { margin-top: 50px; }
 header .navbar-light .navbar-nav .nav-item:hover a, header .navbar-light .navbar-nav .nav-item a.active, header .navbar-light .navbar-nav .nav-item a:focus, header .navbar-light .navbar-nav .nav-item a:focus {
-color: #7d4ac7;}
+color: #6BAC1B;}
 header.menu-sticky .navbar-light .navbar-nav .nav-item:hover a:before, header.menu-sticky .navbar-light .navbar-nav .nav-item a.active:before, header.menu-sticky .navbar-light .navbar-nav .nav-item a:focus:before {content: none;}
 .feedback-box .title { line-height: 30px; font-size: 20px;}
 .banner-after { display: none; }
@@ -147,7 +147,7 @@ header{top: 20px;}
 .about-manu li { margin: 0; width: 100%; display: inherit !important; }
 .about-manu.menu-sticky { padding: 0; }
 .about-manu li.active a:after { border: inherit !important; }
-.about-manu li.active { background: #7d4ac7; background: -moz-linear-gradient(left, #7d4ac7 0%, #a733bb 100%); background: -webkit-linear-gradient(left, #7d4ac7 0%, #a733bb 100%); background: linear-gradient(to right, #7d4ac7 0%, #a733bb 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7d4ac7', endColorstr='#a733bb', GradientType=1); /* IE6-9 */ }
+.about-manu li.active { background: #6BAC1B; background: -moz-linear-gradient(left, #6BAC1B 0%, #489618 100%); background: -webkit-linear-gradient(left, #6BAC1B 0%, #489618 100%); background: linear-gradient(to right, #6BAC1B 0%, #489618 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6BAC1B', endColorstr='#489618', GradientType=1); /* IE6-9 */ }
 .about-manu li.active a { color: #ffffff; }
 .works-box .top-img1 { left: 0; }
 .iq-login-regi h1 { font-size: 30px; line-height: 50px; }
