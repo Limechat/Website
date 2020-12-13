@@ -37,26 +37,58 @@ layout: page
                               <div class="row">
                                  <div class="col-lg-6 col-sm-12 mb-3">
                                     <div class="form-group">
-                                       <label class="mb-2">Name</label>
-                                       <input type="text" name="name"  class="form-control" id="name" placeholder="Your Name">
+                                       <label class="mb-2">First Name *</label>
+                                       <input type="text" name="f_name"  class="form-control" id="name" placeholder="First Name" required="true">
                                     </div>
                                  </div>
                                  <div class="col-lg-6 col-sm-12 mb-3">
                                     <div class="form-group">
-                                       <label class="mb-2">Email</label>
-                                       <input type="text" name="email" class="form-control" id="email" placeholder="Your Email">
+                                       <label class="mb-2">Last Name</label>
+                                       <input type="text" name="l_name"  class="form-control" id="name" placeholder="Last Name">
                                     </div>
                                  </div>
+                                 
+                                 <div class="col-lg-6 col-sm-12 mb-3">
+                                    <div class="form-group">
+                                       <label class="mb-2">Email *</label>
+                                       <input type="text" name="email" class="form-control" id="email" placeholder="Your Email" required="true">
+                                    </div>
+                                 </div>
+
+                                 <div class="col-lg-6 col-sm-12 mb-3">
+                                    <div class="form-group">
+                                       <label class="mb-2">Phone Number</label>
+                                       <input type="text" name="phone" class="form-control" id="email" placeholder="Phone Number">
+                                    </div>
+                                 </div>
+
+                                 
                                  <div class="col-lg-12 col-sm-12 mb-3">
                                     <div class="form-group">
-                                       <label class="mb-2">Phone</label>
-                                       <input type="text" name="phone" class="form-control" id="phone" placeholder="Your Phone Number">
+                                       <label class="mb-2">Country</label>
+                                       <input type="text" name="country" class="form-control" id="phone" placeholder="Country">
                                     </div>
                                  </div>
+
+                                 <div class="col-lg-6 col-sm-12 mb-3">
+                                    <div class="form-group">
+                                       <label class="mb-2">Company</label>
+                                       <input type="text" name="company" class="form-control" id="phone" placeholder="Company">
+                                    </div>
+                                 </div>
+
+                                 <div class="col-lg-6 col-sm-12 mb-3">
+                                    <div class="form-group">
+                                       <label class="mb-2">Designation</label>
+                                       <input type="text" name="designation" class="form-control" id="phone" placeholder="Designation">
+                                    </div>
+                                 </div>
+                                 
+                                 
                                  <div class="col-lg-12 col-sm-12 mb-3">
                                     <div class="form-group section-field textarea wow fadeInUp" data-wow-duration="2.5s">
-                                       <label class="mb-2">Message</label>
-                                       <textarea class="input-message w-100" name="message"  id="message" placeholder="Type Your Message Here" rows="5"></textarea>
+                                       <label class="mb-2">Message (Minimum 20 characters) *</label>
+                                       <textarea class="input-message w-100" name="message"  id="message" placeholder="Type Your Message Here" rows="5" required="true" minlength="20"></textarea>
                                     </div>
                                     <input type="hidden" name="action" value="sendEmail">
                                     <div class="section-field iq-mt-20">
