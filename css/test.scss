@@ -493,7 +493,7 @@ footer .logo { width: 160px; }
 .features-demo .title { font-size: 50px; }
 .features-demo p { font-size: 20px; }
 .features-chatbot { text-align: center; padding: 0% 20%; }
-.features-projects-completed { background-color: $primary1; height: 380px; padding: 3% 25%; }
+.features-projects-completed { background: -moz-linear-gradient(left, #fff 0%, $primary2 100%); background: -webkit-linear-gradient(left, $primary1 0%, $primary2 100%); background: linear-gradient(to right, $primary1 0%, $primary2 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$primary1', endColorstr='$primary2', GradientType=1); position: relative; height: auto; width: 100%; padding: 3% 25%; }
 .features-projects-completed h1, .features-projects-completed h3, .features-projects-completed p { color: $white; }
 .features-projects-completed h1,
 .features-connections h1, .features-integrations h1, .features-call-to-action h1 { font-weight: bold; }

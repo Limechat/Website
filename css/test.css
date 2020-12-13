@@ -1909,8 +1909,13 @@ footer .logo {
   padding: 0% 20%; }
 
 .features-projects-completed {
-  background-color: #6BAC1B;
-  height: 380px;
+  background: -moz-linear-gradient(left, #fff 0%, #489618 100%);
+  background: -webkit-linear-gradient(left, #6BAC1B 0%, #489618 100%);
+  background: linear-gradient(to right, #6BAC1B 0%, #489618 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$primary1', endColorstr='$primary2', GradientType=1);
+  position: relative;
+  height: auto;
+  width: 100%;
   padding: 3% 25%; }
 
 .features-projects-completed h1, .features-projects-completed h3, .features-projects-completed p {
