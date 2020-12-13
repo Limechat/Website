@@ -291,46 +291,46 @@ Index Of Script
 		/*------------------------
 		Contact From
 		--------------------------*/
-		$('#contact').submit(function(e) {
-			var form_data = $(this).serialize();
-			var flag = 0;
-			e.preventDefault(); // Prevent Default Submission
-			$('.require').each(function() {
-				if ($.trim($(this).val()) == '') {
-					$(this).css("border", "1px solid red");
-					e.preventDefault(); // Prevent Default Submission
-					flag = 1;
-				} else {
-					$(this).css("border", "1px solid grey");
-					flag = 0;
-				}
-			});
-			if (grecaptcha.getResponse() == "") {
-				flag = 1;
-				alert('Please verify Recaptch');
+		// $('#contact').submit(function(e) {
+		// 	var form_data = $(this).serialize();
+		// 	var flag = 0;
+		// 	e.preventDefault(); // Prevent Default Submission
+		// 	$('.require').each(function() {
+		// 		if ($.trim($(this).val()) == '') {
+		// 			$(this).css("border", "1px solid red");
+		// 			e.preventDefault(); // Prevent Default Submission
+		// 			flag = 1;
+		// 		} else {
+		// 			$(this).css("border", "1px solid grey");
+		// 			flag = 0;
+		// 		}
+		// 	});
+		// 	if (grecaptcha.getResponse() == "") {
+		// 		flag = 1;
+		// 		alert('Please verify Recaptch');
 
-			} else {
-				flag = 0;
-			}
-			if (flag == 0) {
-				console.log(form_data);
-				$.ajax({
-						url: 'php/contact-form.php',
-						type: 'POST',
-						data: form_data, // it will serialize the form data
-					})
-					.done(function(data) {
-						console.log("successfully");
-						$("#result").html('Form was successfully submitted.');
-						$('#contact')[0].reset();
-					})
-					.fail(function() {
-						alert('Ajax Submit Failed ...');
-						console.log("fail");
+		// 	} else {
+		// 		flag = 0;
+		// 	}
+		// 	if (flag == 0) {
+		// 		console.log(form_data);
+		// 		$.ajax({
+		// 				url: 'php/contact-form.php',
+		// 				type: 'POST',
+		// 				data: form_data, // it will serialize the form data
+		// 			})
+		// 			.done(function(data) {
+		// 				console.log("successfully");
+		// 				$("#result").html('Form was successfully submitted.');
+		// 				$('#contact')[0].reset();
+		// 			})
+		// 			.fail(function() {
+		// 				alert('Ajax Submit Failed ...');
+		// 				console.log("fail");
 
-					});
-			}
-		});
+		// 			});
+		// 	}
+		// });
 	});
 
 
