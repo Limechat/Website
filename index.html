@@ -27,7 +27,7 @@ layout: page
                         <img class="img-top" src="images/logos/y-combinator.png" height="40">
                     </div>
                 </div>
-                <div class="col-lg-7 col-md-12 col-sm-12 text-right">
+                <div class="col-lg-7 col-md-12 col-sm-12 text-right main-banner" >
                     <img class="img-fluid banner-img" src="images/banner/cover.png" alt="image" />
                 </div>
             </div>
@@ -243,5 +243,10 @@ layout: page
         filter: grayscale(0%);
         cursor: pointer;
         opacity: 1;
+    }
+    @media(min-width:600px) {
+        .main-banner{
+            min-height: 600px;
+        }
     }
 </style>
