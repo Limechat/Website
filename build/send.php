@@ -103,8 +103,8 @@ try {
 
     //Recipients
     $mail->setFrom('admin@limechat.ai', 'Limechat AI');
-    $mail->addAddress('pandeyvishal64742@gmail.com', 'Vishal Pandey');     // Add a recipient
-    $mail->addReplyTo('contact@limechat.ai', 'Limechat AI');
+    $mail->addAddress('admin@limechat.ai', 'Limechat AI');     // Add a recipient
+    $mail->addReplyTo('admin@limechat.ai', 'Limechat AI');
 
 
     // Content
