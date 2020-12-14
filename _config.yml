@@ -35,6 +35,7 @@ plugins:
   - jekyll-feed
 
 destination: build
+# destination: /var/www/html/limechat
 
 # Exclude from processing.
 # The following items will not be processed, by default.
