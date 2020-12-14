@@ -1,4 +1,4 @@
-	
+
 
 //	create by nasir farhadi
 //	email : nasirfarhadi92@gmail.com
@@ -32,8 +32,7 @@
 		$('.itemDot').click(function(){
 			
 			var dataTab= $(this).data("tab");
-			var dataImg= $(this).data("img");
-			changeImg(dataImg);
+			changeImg(dataTab);
 			$('.itemDot').removeClass('active');
 			$(this).addClass('active');
 			$('.CirItem').removeClass('active');
@@ -68,7 +67,7 @@
 			$('[data-tab="'+i+'"]').addClass('active');
 			$('.CirItem').removeClass('active');
 			$( '.CirItem'+i).addClass('active');
-			changeImg(dataImg);
+			changeImg(i);
 			i++;
 			
 			
