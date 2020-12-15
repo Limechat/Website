@@ -116,6 +116,8 @@ header{top: 20px;}
 .pricing-box .price-blog { padding: 10px 0 !important; }
 .contentCircle .CirItem { top: 80px; }
 .works-box .top-img1.i-size { width: 50%; }
+.cta-button{ text-align: center;}
+.mobile-img-100{ width: 100%!important; }
 }
 
 
@@ -143,7 +145,7 @@ header{top: 20px;}
 .title-box h2 { font-size: 24px; line-height: 34px; }
 .iq-works .m-top { margin-top: 80px; }
 .iq-works .m-top.works-arrow1 { margin-top: 45px; }
-.works-box { margin-top: 250px; }
+.works-box { margin-top: 200px; }
 .about-manu li { margin: 0; width: 100%; display: inherit !important; }
 .about-manu.menu-sticky { padding: 0; }
 .about-manu li.active a:after { border: inherit !important; }
@@ -164,6 +166,7 @@ header .navbar { padding: 10px 0; }
 .iq-coming #countdown li p { font-size: 14px; line-height: 20px; font-weight: inherit; }
 .iq-coming #countdown li span:after {content: none;}
 .iq-coming form .form-control { width: 230px;}
+.works-box .top-img1.i-size { width: 60%; }
 }
 
 

@@ -20,9 +20,53 @@
 .CirItem.active { z-index: 1; opacity: 1; transform: scale(1); transition: 0.5s; }
 .contentCircle .CirItem i { font-size: 180px; position: absolute; top: 0; left: 50%; margin-left: -90px; color: #000000; opacity: 0.1; }
 @media only screen and (min-width:300px) and (max-width:599px) {
-	.holderCircle { width: 300px; height: 300px; margin: 110px auto; }
+	.holderCircle { width: 300px; height: 300px; margin: 40px auto; }
 	.holderCircle::after { width: 100%; height: 100%; }
 	.dotCircle { width: 100%; height: 100%; top: 0; right: 0; bottom: 0; left: 0; margin: auto; }
+}
+@media only screen and (max-width:600px) and (max-width:767px) { 
+	.dotCircle  .itemDot { 
+	    display: flex; 
+	    width: 60px; 
+	    height: 60px; 
+	    position: absolute; 
+	    background: #ffffff; 
+	    color: #489618; 
+	    border-radius: 20px; 
+	    text-align: center; 
+	    line-height: 60px; 
+	    font-size: 30px; 
+	    z-index: 3; 
+	    cursor: pointer; 
+	    border: 2px solid #e6e6e6;
+	    align-tems: center;
+	    justify-content:center; 
+	 }
+	 .dotCircle .itemDot { font-size: 20px; }
+}
+
+
+@media(min-width:600px) {
+      .CirItem h2{
+         /*height: 400px;*/
+         /*border: 1px solid black;  */
+         margin-top: 35px;
+         display: flex;
+         align-items: center;
+         justify-content: center;   
+      }
+   }
+@media(max-width:600px) {
+    .CirItem h2{
+         /*border: 1px solid black;*/
+         /*height: inherit;*/
+         margin-top: -40px;
+         font-size: 22px;
+         max-width: 150px;
+         margin-left: auto;
+         margin-right: auto;
+         line-height: 30px;
+    }
 }
 @media only screen and (min-width:600px) and (max-width:767px) { }
 @media only screen and (min-width:768px) and (max-width:991px) { }
