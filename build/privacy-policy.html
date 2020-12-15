@@ -71,26 +71,26 @@
                      <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav ml-auto">
                            <li class="nav-item">
-                              <a class="nav-link" href="index.html">Home</a>
+                              <a class="nav-link" href="index.html">HOME</a>
                            </li>
                            <li class="nav-item">
-                              <a class="nav-link" href="about-us.html">About Us</a>
+                              <a class="nav-link" href="about-us.html">ABOUT US</a>
                            </li>
                            <li class="nav-item">
-                              <a class="nav-link" href="technology.html">Technology</a>
+                              <a class="nav-link" href="technology.html">TECHNOLOGY</a>
                            </li>
                            <li class="nav-item dropdown">
                               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              Features
+                              FEATURES
                               </a>
                               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                 <a class="dropdown-item" href="sales.html">Sales</a>
-                                 <a class="dropdown-item" href="support.html">Customer Support</a>
+                                 <a class="dropdown-item" href="sales.html">SALES</a>
+                                 <a class="dropdown-item" href="support.html">CUSTOMER SUPPORT</a>
                               </div>
                            </li>
                            
                            <li class="nav-item">
-                              <a class="nav-link" href="https://blog.limechat.ai/">Blog</a>
+                              <a class="nav-link" href="https://blog.limechat.ai/">BLOG</a>
                            </li>
                            <li class="nav-item dropdown" style="display: none;">
                               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -113,7 +113,7 @@
                </div>
                <div class="col-lg-3 text-right">
                   <ul class="login">
-                     <li class="d-inline active"><a href="contact-us.php">Get Demo</a></li>
+                     <li class="d-inline active"><a href="contact-us.php">GET DEMO</a></li>
                   </ul>
                </div>
             </div>

@@ -96,6 +96,9 @@ footer .copyright { margin-top: 30px; }
 #chat-circle i { font-size: 32px;}
 header{top: 20px;}
 .login { padding: 4px 15px;}
+.features-chatbot { text-align: center; padding: 0% 0%; }
+.features-demo .title { font-size: 32px; text-align: center; }
+.features-demo p { font-size: 18px; text-align: center; }
 }
 
 

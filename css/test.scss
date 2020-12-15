@@ -41,7 +41,7 @@ $col3 : #666666;
 $primary1 : #6BAC1B;
 $primary2 : #489618;
 $primary3 : #6BAC1B;
-$primary4 : #6BAC1B;
+$primary4 : #1B83AC;
 
 // $primary1 : #7d4ac7;
 // $primary2 : #a733bb;
@@ -139,7 +139,7 @@ color: $white; }
 .iq-works .m-top { margin-top: 400px; }
 .iq-works .m-top.works-arrow1 { margin-top: 130px; }
 .works-box { position: relative; }
-.iq-works i { padding-right: 10px; color: $primary1; }
+.iq-works i { padding-right: 10px; color: $primary4; }
 .iq-works ul li { list-style: none; font-weight: 500; color: $col3; }
 .works-box .top-bg { opacity: 0.1; position: relative; left: 10px; top: -30px; width: 85%; -webkit-animation-name: spin; -webkit-animation-duration: 100000ms; -webkit-animation-iteration-count: infinite; -webkit-animation-timing-function: linear; -moz-animation-name: spin; -moz-animation-duration: 100000ms; -moz-animation-iteration-count: infinite; -moz-animation-timing-function: linear; -ms-animation-name: spin; -ms-animation-duration: 100000ms; -ms-animation-iteration-count: infinite; -ms-animation-timing-function: linear; animation-name: spin; animation-duration: 100000ms; animation-iteration-count: infinite; animation-timing-function: linear; }
 @-ms-keyframes spin {

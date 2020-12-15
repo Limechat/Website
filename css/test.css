@@ -366,7 +366,7 @@ header.menu-sticky .login li a:hover {
 
 .iq-works i {
   padding-right: 10px;
-  color: #6BAC1B; }
+  color: #1B83AC; }
 
 .iq-works ul li {
   list-style: none;
@@ -480,11 +480,11 @@ header.menu-sticky .login li a:hover {
   width: 25%; }
 
 .technology-level3-card:hover {
-  box-shadow: 0px 0px 30px 9px rgba(107, 172, 27, 0.3);
+  box-shadow: 0px 0px 30px 9px rgba(27, 131, 172, 0.3);
   transform: translateY(-10px); }
 
 .technology-number {
-  color: #6BAC1B;
+  color: #1B83AC;
   opacity: 0.5;
   font-size: 118px;
   font-weight: bold; }
@@ -588,10 +588,10 @@ Blog Detail
   margin-right: 8px;
   font-weight: 600;
   text-transform: capitalize;
-  background: #6BAC1B;
-  background: -moz-linear-gradient(-45deg, #6BAC1B 0%, #6091fc 100%);
-  background: -webkit-linear-gradient(-45deg, #6BAC1B 0%, #6091fc 100%);
-  background: linear-gradient(135deg, #6BAC1B 0%, #6091fc 100%);
+  background: #1B83AC;
+  background: -moz-linear-gradient(-45deg, #1B83AC 0%, #6091fc 100%);
+  background: -webkit-linear-gradient(-45deg, #1B83AC 0%, #6091fc 100%);
+  background: linear-gradient(135deg, #1B83AC 0%, #6091fc 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$primary4', endColorstr='#6091fc', GradientType=1); }
 
 .iq-blogdetailbox .iq-blogbox .iq-entry-title h5 {
@@ -915,7 +915,7 @@ Blog Detail
   color: #6163cc; }
 
 .iq-blogbox .blog-box ul li a:hover {
-  color: #6BAC1B; }
+  color: #1B83AC; }
 
 .iq-blogdetailbox .iq-blog-entry .date small {
   display: block;
